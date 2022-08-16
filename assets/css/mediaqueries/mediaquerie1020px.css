@@ -1,0 +1,45 @@
+@media screen and (min-width: 1020) {
+  .img9{
+    visibility: visible;
+  }
+  .nav{
+    display: none;
+  }
+  .nav2{
+    position: sticky;
+    display: contents;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  } 
+  .p{
+    display: flex;
+    gap: 5px;
+  }
+  .img10,.img11,.img12,.img13,.img14,.img15,.img16{
+    display: none;
+  }
+  .imagenes{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+  }
+  .img-one_piece{
+    width: 18rem;
+    height: 30rem;
+    margin-bottom: .7em;
+    padding: 0.4em;
+    border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
+    box-shadow: .1px .1px 15px .1px rgb(170, 169, 169);
+    z-index: 1;
+  }
+  .img-one_piece{
+    transition: transform .2s;
+  }
+  .img-one_piece:hover{
+    transform: scale(1.03); 
+  }
+}

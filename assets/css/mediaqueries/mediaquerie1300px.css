@@ -1,0 +1,27 @@
+@media screen and (min-width: 1300px) {
+  .nav2{
+    position: fixed;
+  }
+  .imagenes{
+    margin-top: 2rem;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+  }
+  .img10,.img11,.img12,.img13,.img14,.img15,.img16{
+    display: contents;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+  }
+  .img-one_piece:hover{
+    transform: scale(1.04); 
+    transition: transform 2s;
+  }
+}
